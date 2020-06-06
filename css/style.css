@@ -1,0 +1,393 @@
+body {
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+nav {
+  background-image: url(https://i.pinimg.com/236x/40/7d/97/407d9777bd12e483ecdf0cd5440a9d6d--textile-texture-colour-black.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  background: #cc0000;
+  color: white;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+  background: #cc0000;
+  color: white;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.navbar-light .navbar-nav .nav-item .nav-link {
+  border-radius: 0px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(214, 214, 194);
+  margin-right: 5px;
+  border-right: 1px solid rgb(214, 214, 194) !important;
+}
+
+.dropdown-menu {
+  background-image: url(https://i.pinimg.com/236x/40/7d/97/407d9777bd12e483ecdf0cd5440a9d6d--textile-texture-colour-black.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 0px 0px 15px 15px;
+  min-width: 10px;
+}
+
+.dropdown-menu > a {
+  color: white;
+}
+.dropdown-menu .item1:hover,
+.dropdown-menu .item2:hover {
+  color: rgb(214, 214, 194);
+  background-color: #cc0000;
+  border-bottom: 1px solid black;
+  border-radius: 10px;
+}
+
+.main-head > h4 {
+  font-family: sans-serif, "Times New Roman", Times, serif;
+  color: white;
+  font-weight: bold;
+}
+
+.main-head span {
+  color: #cc0000;
+  font-weight: bolder;
+}
+a:hover {
+  text-decoration: none;
+}
+.products {
+  width: 100%;
+  margin-top: 10%;
+  font-family: sans-serif;
+}
+.products h2 {
+  background: #cc0000;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px 0px 70px 10px;
+  color: #fff;
+  width: 200px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px;
+  height: 40px;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  justify-content: center;
+  text-align: center;
+  color: white;
+  border: 2px solid grey;
+  box-shadow: 4px 2px 4px 2px white;
+  border-radius: 5%;
+  margin: 10px;
+  background-image: url(https://i.pinimg.com/236x/40/7d/97/407d9777bd12e483ecdf0cd5440a9d6d--textile-texture-colour-black.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.card1 h5,
+.card2 h5,
+.card3 h5,
+.card4 h5 {
+  color: #cc0000 !important;
+}
+
+.main-card {
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.fa-truck-moving ,.fa-undo ,.headicon ,.fa-shield-alt{
+  font-size: 30px;
+  margin-top: 10px;
+}
+.card-p {
+  font-size: 12px;
+}
+h5 {
+  margin-bottom: 0px;
+}
+
+/* .products h2 ::after {
+  content: " ";
+  border-top: 40px solid blue;
+  border-right: 40px solid transparent;
+  position: relative;
+  left: 48px;
+  top: 34px;
+} */
+.row {
+  margin-top: 30px;
+}
+img {
+  width: 100%;
+}
+.product-bottom .fa {
+  font-size: 15px;
+  color: #990011ff;
+}
+.product-bottom h3 {
+  font-size: 20px;
+  font-weight: bold;
+
+  padding-bottom: 0px;
+}
+.product-bottom h5 {
+  font-size: 15px;
+
+  padding-bottom: 10px;
+}
+.overlay {
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  margin-left: 0;
+  width: 70px;
+}
+.product-top img {
+  border-radius: 10px;
+}
+.product-top:hover .overlay {
+  opacity: 1;
+  margin-left: 5%;
+  transition: 0.5s;
+}
+.overlay .fa {
+  cursor: pointer;
+  background-image: url(https://i.pinimg.com/236x/40/7d/97/407d9777bd12e483ecdf0cd5440a9d6d--textile-texture-colour-black.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    
+  color: white;
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  padding: 7px;
+  margin: 5%;
+  margin-bottom: 5%;
+}
+.overlay :hover .fa {
+  color: #a50000;
+}
+.overlay .btn-secondary {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+}
+footer {
+  background-color: rgb(0, 0, 0);
+}
+ul li {
+  list-style: none;
+}
+#particles-js {
+  height: 700px;
+  width: 100%;
+  background: black;
+  opacity: 0.9;
+}
+#ft {
+  color: #fff;
+}
+
+.input-container {
+  display: -ms-flexbox;
+  display: flex;
+  width: 250px;
+  margin: 10px 0px 0px 20px;
+}
+.input-container > input {
+  border: 0px transparent;
+  border-radius: 0px 10px 10px 0px;
+  outline: none;
+  width: 250px;
+}
+.input-container > input:focus {
+  background-color: lightgrey;
+  color: #a50000;
+  border: 1px solid #cc0000 !important;
+}
+
+.icon {
+  padding: 10px;
+  background: #cc0000;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  border-radius: 10px 0px 0px 10px;
+}
+.btn {
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  padding: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  height: 35px;
+  width: 120px;
+  opacity: 0.9;
+  float: right;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.margin {
+  margin: 10px 0px 0px 20px;
+  color: white;
+}
+.reg-label > a {
+  margin: 10px 0px 0px 20px;
+  color: white;
+}
+input.large {
+  transform: scale(1.2);
+  margin-left: 7px;
+}
+/* .inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+.inner :hover img{
+  transform: scale(1.5);
+} */
+.contact-information,
+.information,
+.help-links {
+  margin: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: transparent;
+  text-transform: capitalize;
+}
+.contact-information span,
+.information span,
+.help-links span,
+.login-form span {
+  color: #cc0000 !important;
+}
+
+.login-form {
+  margin: 25px 0px 25px 25px;
+}
+div.login-inside-div {
+  background-color: rgb(31, 31, 31);
+  height: 200px;
+  width: 400px;
+  border: 2px solid grey;
+}
+/* About Page Css Start Here */
+
+/* main heading */
+.main-heading {
+  font-family: sans-serif, "Times New Roman", Times, serif;
+  font-size: 200px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  position: absolute;
+
+  top: 180px;
+  left: 180px;
+}
+.main-heading > .about{
+  color: #cc0000;
+}
+.main-heading > .us{
+  color: white;
+}
+
+.main-heading:hover > .about
+{
+  color: white;
+}
+.main-heading:hover > .us
+{
+  color: #cc0000;
+}
+
+
+/* main heading  Ends*/
+
+/* Intro */
+.intro {
+  text-align: center;
+}
+.intro h4 {
+  margin-top: 30px;
+  font-size: 70px !important;
+}
+.intro p {
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.intro p span {
+  color: #cc0000;
+}
+/* Intro  Ends*/
+
+/* Swipper.js css */
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  color: black;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 280px;
+}
+.swiper-slide .imgBX {
+  width: 100%;
+  overflow: hidden;
+}
+.swiper-slide .imgBX img {
+  width: 300px;
+  height: 220px;
+}
+.swiper-slide .mission-details {
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 20px;
+  background-color: grey;
+}
+
+.swiper-slide .mission-details h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;
+  text-align: center;
+  line-height: 25px;
+  text-shadow: 5px 5px 10px black  ;
+}
+.swiper-slide .mission-details h3 span {
+  color: #cc0000;
+}
+.col-md-12{
+
+}
+/* Swipper.js css ends*/
+
+/* About Page Css End Here */
+/* Cart Css Start Here */
+]
+/* Cart Css End Here */
